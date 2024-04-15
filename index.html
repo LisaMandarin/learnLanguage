@@ -7,15 +7,34 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <form>
-    <label>Text you want to translate</label>
-    <textarea rows="5" cols="50"></textarea>
-    <button type="button">translate</button>
+  <form id="originalForm">
+    <label>Enter the text</label>
+    <textarea id="textOriginalArea" rows="5" cols="100"></textarea>
+    <div>
+      <button type="button" id="clearOriginalBtn">clear</button>
+      <button type="button" id="breakBtn">break sentence</button>
+    </div>
   </form>
-  
-  <p>
 
-  </p>
-  <script src="/main.js"></script>
+  <form id="listForm">
+    <label>Sentence List</label>
+    <textarea id="sentenceListArea" rows="5" cols="100"></textarea>
+    <div>
+      <button type="button" id="clearListBtn">clear</button>
+      <button type="button" id="translateBtn">translate</button>
+    </div>
+  </form>
+
+  <section id="translationPara">
+    <h1>Translation</h1>
+    <p id="translationArea"></p>
+  </section>
+  <div>
+    <button type="button" id="clearTranslationBtn">clear</button>
+  </div>
+  
+  <script src="/js/main.js" type="module"></script>
+  <script src="/js/translate.js" type="module"></script>
+  <script src="/js/breakSentence.js" type="module"></script>
 </body>
 </html>
