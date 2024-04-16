@@ -6,6 +6,11 @@ body {
   font-size: 20px;
 }
 
+header {
+  width: 50vw;
+  background-color: skyblue;
+  padding: 15px;
+}
 .card {
   width: 100vw;
   display: flex;
@@ -46,4 +51,10 @@ h1 {
 .note {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#originalHint {
+  display: none;
+  width: 80vw;
+  background-color: skyblue;
 }
