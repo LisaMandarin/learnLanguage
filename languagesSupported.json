@@ -1,0 +1,3031 @@
+{
+    "translation": {
+      "af": {
+        "name": "南非荷蘭文",
+        "nativeName": "Afrikaans",
+        "dir": "ltr"
+      },
+      "am": {
+        "name": "阿姆哈拉文",
+        "nativeName": "አማርኛ",
+        "dir": "ltr"
+      },
+      "ar": {
+        "name": "阿拉伯文",
+        "nativeName": "العربية",
+        "dir": "rtl"
+      },
+      "as": {
+        "name": "阿薩姆文",
+        "nativeName": "অসমীয়া",
+        "dir": "ltr"
+      },
+      "az": {
+        "name": "亞塞拜然文",
+        "nativeName": "Azərbaycan",
+        "dir": "ltr"
+      },
+      "ba": {
+        "name": "巴什喀爾文",
+        "nativeName": "Bashkir",
+        "dir": "ltr"
+      },
+      "bg": {
+        "name": "保加利亞文",
+        "nativeName": "Български",
+        "dir": "ltr"
+      },
+      "bho": {
+        "name": "Bhojpuri",
+        "nativeName": "Bhojpuri",
+        "dir": "ltr"
+      },
+      "bn": {
+        "name": "孟加拉文",
+        "nativeName": "বাংলা",
+        "dir": "ltr"
+      },
+      "bo": {
+        "name": "藏文",
+        "nativeName": "བོད་སྐད་",
+        "dir": "ltr"
+      },
+      "brx": {
+        "name": "Bodo",
+        "nativeName": "बड़ो",
+        "dir": "ltr"
+      },
+      "bs": {
+        "name": "波士尼亞文",
+        "nativeName": "Bosnian",
+        "dir": "ltr"
+      },
+      "ca": {
+        "name": "加泰蘭文",
+        "nativeName": "Català",
+        "dir": "ltr"
+      },
+      "cs": {
+        "name": "捷克文",
+        "nativeName": "Čeština",
+        "dir": "ltr"
+      },
+      "cy": {
+        "name": "威爾斯文",
+        "nativeName": "Cymraeg",
+        "dir": "ltr"
+      },
+      "da": {
+        "name": "丹麥文",
+        "nativeName": "Dansk",
+        "dir": "ltr"
+      },
+      "de": {
+        "name": "德文",
+        "nativeName": "Deutsch",
+        "dir": "ltr"
+      },
+      "doi": {
+        "name": "Dogri",
+        "nativeName": "Dogri",
+        "dir": "ltr"
+      },
+      "dsb": {
+        "name": "下索布文",
+        "nativeName": "Dolnoserbšćina",
+        "dir": "ltr"
+      },
+      "dv": {
+        "name": "迪維西文",
+        "nativeName": "ދިވެހިބަސް",
+        "dir": "rtl"
+      },
+      "el": {
+        "name": "希臘文",
+        "nativeName": "Ελληνικά",
+        "dir": "ltr"
+      },
+      "en": {
+        "name": "英文",
+        "nativeName": "English",
+        "dir": "ltr"
+      },
+      "es": {
+        "name": "西班牙文",
+        "nativeName": "Español",
+        "dir": "ltr"
+      },
+      "et": {
+        "name": "愛沙尼亞文",
+        "nativeName": "Eesti",
+        "dir": "ltr"
+      },
+      "eu": {
+        "name": "巴斯克文",
+        "nativeName": "Euskara",
+        "dir": "ltr"
+      },
+      "fa": {
+        "name": "波斯文",
+        "nativeName": "فارسی",
+        "dir": "rtl"
+      },
+      "fi": {
+        "name": "芬蘭文",
+        "nativeName": "Suomi",
+        "dir": "ltr"
+      },
+      "fil": {
+        "name": "菲律賓文",
+        "nativeName": "Filipino",
+        "dir": "ltr"
+      },
+      "fj": {
+        "name": "斐濟文",
+        "nativeName": "Na Vosa Vakaviti",
+        "dir": "ltr"
+      },
+      "fo": {
+        "name": "法羅文",
+        "nativeName": "Føroyskt",
+        "dir": "ltr"
+      },
+      "fr": {
+        "name": "法文",
+        "nativeName": "Français",
+        "dir": "ltr"
+      },
+      "fr-CA": {
+        "name": "法文 (加拿大)",
+        "nativeName": "Français (Canada)",
+        "dir": "ltr"
+      },
+      "ga": {
+        "name": "愛爾蘭文",
+        "nativeName": "Gaeilge",
+        "dir": "ltr"
+      },
+      "gl": {
+        "name": "加利西亞文",
+        "nativeName": "Galego",
+        "dir": "ltr"
+      },
+      "gom": {
+        "name": "Konkani",
+        "nativeName": "Konkani",
+        "dir": "ltr"
+      },
+      "gu": {
+        "name": "古吉拉特文",
+        "nativeName": "ગુજરાતી",
+        "dir": "ltr"
+      },
+      "ha": {
+        "name": "豪撒文",
+        "nativeName": "Hausa",
+        "dir": "ltr"
+      },
+      "he": {
+        "name": "希伯來文",
+        "nativeName": "עברית",
+        "dir": "rtl"
+      },
+      "hi": {
+        "name": "印地文",
+        "nativeName": "हिन्दी",
+        "dir": "ltr"
+      },
+      "hne": {
+        "name": "Chhattisgarhi",
+        "nativeName": "Chhattisgarhi",
+        "dir": "ltr"
+      },
+      "hr": {
+        "name": "克羅埃西亞文",
+        "nativeName": "Hrvatski",
+        "dir": "ltr"
+      },
+      "hsb": {
+        "name": "上索布文",
+        "nativeName": "Hornjoserbšćina",
+        "dir": "ltr"
+      },
+      "ht": {
+        "name": "海地文",
+        "nativeName": "Haitian Creole",
+        "dir": "ltr"
+      },
+      "hu": {
+        "name": "匈牙利文",
+        "nativeName": "Magyar",
+        "dir": "ltr"
+      },
+      "hy": {
+        "name": "亞美尼亞文",
+        "nativeName": "Հայերեն",
+        "dir": "ltr"
+      },
+      "id": {
+        "name": "印尼文",
+        "nativeName": "Indonesia",
+        "dir": "ltr"
+      },
+      "ig": {
+        "name": "伊布文",
+        "nativeName": "Ásụ̀sụ́ Ìgbò",
+        "dir": "ltr"
+      },
+      "ikt": {
+        "name": "Inuinnaqtun",
+        "nativeName": "Inuinnaqtun",
+        "dir": "ltr"
+      },
+      "is": {
+        "name": "冰島文",
+        "nativeName": "Íslenska",
+        "dir": "ltr"
+      },
+      "it": {
+        "name": "義大利文",
+        "nativeName": "Italiano",
+        "dir": "ltr"
+      },
+      "iu": {
+        "name": "因紐特文",
+        "nativeName": "ᐃᓄᒃᑎᑐᑦ",
+        "dir": "ltr"
+      },
+      "iu-Latn": {
+        "name": "Inuktitut (Latin)",
+        "nativeName": "Inuktitut (Latin)",
+        "dir": "ltr"
+      },
+      "ja": {
+        "name": "日文",
+        "nativeName": "日本語",
+        "dir": "ltr"
+      },
+      "ka": {
+        "name": "喬治亞文",
+        "nativeName": "ქართული",
+        "dir": "ltr"
+      },
+      "kk": {
+        "name": "哈薩克文",
+        "nativeName": "Қазақ Тілі",
+        "dir": "ltr"
+      },
+      "km": {
+        "name": "高棉文",
+        "nativeName": "ខ្មែរ",
+        "dir": "ltr"
+      },
+      "kmr": {
+        "name": "庫德文 (北)",
+        "nativeName": "Kurdî (Bakur)",
+        "dir": "ltr"
+      },
+      "kn": {
+        "name": "坎那達文",
+        "nativeName": "ಕನ್ನಡ",
+        "dir": "ltr"
+      },
+      "ko": {
+        "name": "韓文",
+        "nativeName": "한국어",
+        "dir": "ltr"
+      },
+      "ks": {
+        "name": "Kashmiri",
+        "nativeName": "کٲشُر",
+        "dir": "rtl"
+      },
+      "ku": {
+        "name": "庫德文 (中)",
+        "nativeName": "Kurdî (Navîn)",
+        "dir": "rtl"
+      },
+      "ky": {
+        "name": "吉爾吉斯文",
+        "nativeName": "Кыргызча",
+        "dir": "ltr"
+      },
+      "ln": {
+        "name": "林加拉文",
+        "nativeName": "Lingála",
+        "dir": "ltr"
+      },
+      "lo": {
+        "name": "寮文",
+        "nativeName": "ລາວ",
+        "dir": "ltr"
+      },
+      "lt": {
+        "name": "立陶宛文",
+        "nativeName": "Lietuvių",
+        "dir": "ltr"
+      },
+      "lug": {
+        "name": "Ganda",
+        "nativeName": "Ganda",
+        "dir": "ltr"
+      },
+      "lv": {
+        "name": "拉脫維亞文",
+        "nativeName": "Latviešu",
+        "dir": "ltr"
+      },
+      "lzh": {
+        "name": "Chinese (Literary)",
+        "nativeName": "中文 (文言文)",
+        "dir": "ltr"
+      },
+      "mai": {
+        "name": "邁蒂利文",
+        "nativeName": "Maithili",
+        "dir": "ltr"
+      },
+      "mg": {
+        "name": "馬達加斯加文",
+        "nativeName": "Malagasy",
+        "dir": "ltr"
+      },
+      "mi": {
+        "name": "毛利文",
+        "nativeName": "Te Reo Māori",
+        "dir": "ltr"
+      },
+      "mk": {
+        "name": "馬其頓文",
+        "nativeName": "Македонски",
+        "dir": "ltr"
+      },
+      "ml": {
+        "name": "馬來亞拉姆文",
+        "nativeName": "മലയാളം",
+        "dir": "ltr"
+      },
+      "mn-Cyrl": {
+        "name": "Mongolian (Cyrillic)",
+        "nativeName": "Mongolian (Cyrillic)",
+        "dir": "ltr"
+      },
+      "mn-Mong": {
+        "name": "Mongolian (Traditional)",
+        "nativeName": "ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ",
+        "dir": "ltr"
+      },
+      "mni": {
+        "name": "Manipuri",
+        "nativeName": "ꯃꯩꯇꯩꯂꯣꯟ",
+        "dir": "ltr"
+      },
+      "mr": {
+        "name": "馬拉地文",
+        "nativeName": "मराठी",
+        "dir": "ltr"
+      },
+      "ms": {
+        "name": "馬來文",
+        "nativeName": "Melayu",
+        "dir": "ltr"
+      },
+      "mt": {
+        "name": "馬爾他文",
+        "nativeName": "Malti",
+        "dir": "ltr"
+      },
+      "mww": {
+        "name": "孟文",
+        "nativeName": "Hmong Daw",
+        "dir": "ltr"
+      },
+      "my": {
+        "name": "緬甸文",
+        "nativeName": "မြန်မာ",
+        "dir": "ltr"
+      },
+      "nb": {
+        "name": "巴克摩挪威文",
+        "nativeName": "Norsk Bokmål",
+        "dir": "ltr"
+      },
+      "ne": {
+        "name": "尼泊爾文",
+        "nativeName": "नेपाली",
+        "dir": "ltr"
+      },
+      "nl": {
+        "name": "荷蘭文",
+        "nativeName": "Nederlands",
+        "dir": "ltr"
+      },
+      "nso": {
+        "name": "Sesotho sa Leboa",
+        "nativeName": "Sesotho sa Leboa",
+        "dir": "ltr"
+      },
+      "nya": {
+        "name": "Nyanja",
+        "nativeName": "Nyanja",
+        "dir": "ltr"
+      },
+      "or": {
+        "name": "歐迪亞文",
+        "nativeName": "ଓଡ଼ିଆ",
+        "dir": "ltr"
+      },
+      "otq": {
+        "name": "克雷塔羅歐多米文",
+        "nativeName": "Hñähñu",
+        "dir": "ltr"
+      },
+      "pa": {
+        "name": "旁遮普文",
+        "nativeName": "ਪੰਜਾਬੀ",
+        "dir": "ltr"
+      },
+      "pl": {
+        "name": "波蘭文",
+        "nativeName": "Polski",
+        "dir": "ltr"
+      },
+      "prs": {
+        "name": "达里语",
+        "nativeName": "دری",
+        "dir": "rtl"
+      },
+      "ps": {
+        "name": "普什圖文",
+        "nativeName": "پښتو",
+        "dir": "rtl"
+      },
+      "pt": {
+        "name": "葡萄牙文 (巴西)",
+        "nativeName": "Português (Brasil)",
+        "dir": "ltr"
+      },
+      "pt-PT": {
+        "name": "葡萄牙文 (葡萄牙)",
+        "nativeName": "Português (Portugal)",
+        "dir": "ltr"
+      },
+      "ro": {
+        "name": "羅馬尼亞文",
+        "nativeName": "Română",
+        "dir": "ltr"
+      },
+      "ru": {
+        "name": "俄文",
+        "nativeName": "Русский",
+        "dir": "ltr"
+      },
+      "run": {
+        "name": "Rundi",
+        "nativeName": "Rundi",
+        "dir": "ltr"
+      },
+      "rw": {
+        "name": "盧安達文",
+        "nativeName": "Kinyarwanda",
+        "dir": "ltr"
+      },
+      "sd": {
+        "name": "信德文",
+        "nativeName": "سنڌي",
+        "dir": "rtl"
+      },
+      "si": {
+        "name": "僧伽羅文",
+        "nativeName": "සිංහල",
+        "dir": "ltr"
+      },
+      "sk": {
+        "name": "斯洛伐克文",
+        "nativeName": "Slovenčina",
+        "dir": "ltr"
+      },
+      "sl": {
+        "name": "斯洛維尼亞文",
+        "nativeName": "Slovenščina",
+        "dir": "ltr"
+      },
+      "sm": {
+        "name": "薩摩亞文",
+        "nativeName": "Gagana Sāmoa",
+        "dir": "ltr"
+      },
+      "sn": {
+        "name": "紹納文",
+        "nativeName": "chiShona",
+        "dir": "ltr"
+      },
+      "so": {
+        "name": "索馬利文",
+        "nativeName": "Soomaali",
+        "dir": "ltr"
+      },
+      "sq": {
+        "name": "阿爾巴尼亞文",
+        "nativeName": "Shqip",
+        "dir": "ltr"
+      },
+      "sr-Cyrl": {
+        "name": "塞爾維亞文 (斯拉夫文)",
+        "nativeName": "Српски (ћирилица)",
+        "dir": "ltr"
+      },
+      "sr-Latn": {
+        "name": "塞爾維亞文 (拉丁文)",
+        "nativeName": "Srpski (latinica)",
+        "dir": "ltr"
+      },
+      "st": {
+        "name": "Sesotho",
+        "nativeName": "Sesotho",
+        "dir": "ltr"
+      },
+      "sv": {
+        "name": "瑞典文",
+        "nativeName": "Svenska",
+        "dir": "ltr"
+      },
+      "sw": {
+        "name": "史瓦希里文",
+        "nativeName": "Kiswahili",
+        "dir": "ltr"
+      },
+      "ta": {
+        "name": "坦米爾文",
+        "nativeName": "தமிழ்",
+        "dir": "ltr"
+      },
+      "te": {
+        "name": "泰盧固文",
+        "nativeName": "తెలుగు",
+        "dir": "ltr"
+      },
+      "th": {
+        "name": "泰文",
+        "nativeName": "ไทย",
+        "dir": "ltr"
+      },
+      "ti": {
+        "name": "提格利尼亞文",
+        "nativeName": "ትግር",
+        "dir": "ltr"
+      },
+      "tk": {
+        "name": "土庫曼文",
+        "nativeName": "Türkmen Dili",
+        "dir": "ltr"
+      },
+      "tlh-Latn": {
+        "name": "克林貢文 (拉丁文)",
+        "nativeName": "Klingon (Latin)",
+        "dir": "ltr"
+      },
+      "tlh-Piqd": {
+        "name": "克林貢文 (pIqaD)",
+        "nativeName": "Klingon (pIqaD)",
+        "dir": "ltr"
+      },
+      "tn": {
+        "name": "Setswana",
+        "nativeName": "Setswana",
+        "dir": "ltr"
+      },
+      "to": {
+        "name": "東加文",
+        "nativeName": "Lea Fakatonga",
+        "dir": "ltr"
+      },
+      "tr": {
+        "name": "土耳其文",
+        "nativeName": "Türkçe",
+        "dir": "ltr"
+      },
+      "tt": {
+        "name": "韃靼文",
+        "nativeName": "Татар",
+        "dir": "ltr"
+      },
+      "ty": {
+        "name": "大溪地文",
+        "nativeName": "Reo Tahiti",
+        "dir": "ltr"
+      },
+      "ug": {
+        "name": "維吾爾文",
+        "nativeName": "ئۇيغۇرچە",
+        "dir": "rtl"
+      },
+      "uk": {
+        "name": "烏克蘭文",
+        "nativeName": "Українська",
+        "dir": "ltr"
+      },
+      "ur": {
+        "name": "烏都文",
+        "nativeName": "اردو",
+        "dir": "rtl"
+      },
+      "uz": {
+        "name": "烏茲別克文",
+        "nativeName": "Uzbek (Latin)",
+        "dir": "ltr"
+      },
+      "vi": {
+        "name": "越南文",
+        "nativeName": "Tiếng Việt",
+        "dir": "ltr"
+      },
+      "xh": {
+        "name": "科薩文",
+        "nativeName": "isiXhosa",
+        "dir": "ltr"
+      },
+      "yo": {
+        "name": "約魯巴文",
+        "nativeName": "Èdè Yorùbá",
+        "dir": "ltr"
+      },
+      "yua": {
+        "name": "猶加敦馬雅文",
+        "nativeName": "Yucatec Maya",
+        "dir": "ltr"
+      },
+      "yue": {
+        "name": "粵語 (繁體)",
+        "nativeName": "粵語 (繁體)",
+        "dir": "ltr"
+      },
+      "zh-Hans": {
+        "name": "簡體中文 (簡體)",
+        "nativeName": "中文 (简体)",
+        "dir": "ltr"
+      },
+      "zh-Hant": {
+        "name": "繁體中文 (繁體)",
+        "nativeName": "繁體中文 (繁體)",
+        "dir": "ltr"
+      },
+      "zu": {
+        "name": "祖魯文",
+        "nativeName": "Isi-Zulu",
+        "dir": "ltr"
+      }
+    },
+    "transliteration": {
+      "ar": {
+        "name": "阿拉伯文",
+        "nativeName": "العربية",
+        "scripts": [
+          {
+            "code": "Arab",
+            "name": "阿拉伯文",
+            "nativeName": "العربية",
+            "dir": "rtl",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "اللاتينية",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "اللاتينية",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Arab",
+                "name": "Arabic",
+                "nativeName": "العربية",
+                "dir": "rtl"
+              }
+            ]
+          }
+        ]
+      },
+      "as": {
+        "name": "阿薩姆文",
+        "nativeName": "অসমীয়া",
+        "scripts": [
+          {
+            "code": "Beng",
+            "name": "孟加拉文",
+            "nativeName": "বাংলা",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "লেটিন",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "লেটিন",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Beng",
+                "name": "Bangla",
+                "nativeName": "বাংলা",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "be": {
+        "name": "白俄羅斯文",
+        "nativeName": "беларуская",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "Кірыліца",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Лацініца",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Лацініца",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "Кірыліца",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "bg": {
+        "name": "保加利亞文",
+        "nativeName": "Български",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилица",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латиница",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латиница",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилица",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "bn": {
+        "name": "孟加拉文",
+        "nativeName": "বাংলা",
+        "scripts": [
+          {
+            "code": "Beng",
+            "name": "孟加拉文",
+            "nativeName": "বাংলা",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ল্যাটিন",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ল্যাটিন",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Beng",
+                "name": "Bangla",
+                "nativeName": "বাংলা",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "brx": {
+        "name": "Bodo",
+        "nativeName": "बड़ो",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "Devanagari",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Latin",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Latin",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "Devanagari",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "el": {
+        "name": "希臘文",
+        "nativeName": "Ελληνικά",
+        "scripts": [
+          {
+            "code": "Grek",
+            "name": "希臘文",
+            "nativeName": "ελληνικό",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "λατινικό",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "λατινικό",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Grek",
+                "name": "Greek",
+                "nativeName": "ελληνικό",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "fa": {
+        "name": "波斯文",
+        "nativeName": "فارسی",
+        "scripts": [
+          {
+            "code": "Arab",
+            "name": "阿拉伯文",
+            "nativeName": "عربی",
+            "dir": "rtl",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "لاتین",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "لاتین",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Arab",
+                "name": "Arabic",
+                "nativeName": "عربی",
+                "dir": "rtl"
+              }
+            ]
+          }
+        ]
+      },
+      "gom": {
+        "name": "Konkani",
+        "nativeName": "Konkani",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "Devanagari",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Latin",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Latin",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "Devanagari",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "gu": {
+        "name": "古吉拉特文",
+        "nativeName": "ગુજરાતી",
+        "scripts": [
+          {
+            "code": "Gujr",
+            "name": "古吉拉特文",
+            "nativeName": "ગુજરાતી",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "લેટિન",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "લેટિન",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Gujr",
+                "name": "Gujarati",
+                "nativeName": "ગુજરાતી",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "he": {
+        "name": "希伯來文",
+        "nativeName": "עברית",
+        "scripts": [
+          {
+            "code": "Hebr",
+            "name": "希伯來文",
+            "nativeName": "עברי",
+            "dir": "rtl",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "לטיני",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "לטיני",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Hebr",
+                "name": "Hebrew",
+                "nativeName": "עברי",
+                "dir": "rtl"
+              }
+            ]
+          }
+        ]
+      },
+      "hi": {
+        "name": "印地文",
+        "nativeName": "हिन्दी",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "देवनागरी",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "लैटिन",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "लैटिन",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "देवनागरी",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "name": "日文",
+        "nativeName": "日本語",
+        "scripts": [
+          {
+            "code": "Jpan",
+            "name": "日文",
+            "nativeName": "日本語の文字",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ラテン文字",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ラテン文字",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Jpan",
+                "name": "Japanese",
+                "nativeName": "日本語の文字",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "kk": {
+        "name": "哈薩克文",
+        "nativeName": "Қазақ Тілі",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилл жазуы",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латын жазуы",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латын жазуы",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилл жазуы",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "kn": {
+        "name": "坎那達文",
+        "nativeName": "ಕನ್ನಡ",
+        "scripts": [
+          {
+            "code": "Knda",
+            "name": "坎那達文",
+            "nativeName": "ಕನ್ನಡ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ಲ್ಯಾಟಿನ್",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ಲ್ಯಾಟಿನ್",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Knda",
+                "name": "Kannada",
+                "nativeName": "ಕನ್ನಡ",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "name": "韓文",
+        "nativeName": "한국어",
+        "scripts": [
+          {
+            "code": "Kore",
+            "name": "韓文",
+            "nativeName": "한국 문자",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "로마자",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "로마자",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Kore",
+                "name": "Korean",
+                "nativeName": "한국 문자",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ks": {
+        "name": "Kashmiri",
+        "nativeName": "کٲشُر",
+        "scripts": [
+          {
+            "code": "Arab",
+            "name": "阿拉伯文",
+            "nativeName": "Arabic",
+            "dir": "rtl",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Latin",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Latin",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Arab",
+                "name": "Arabic",
+                "nativeName": "Arabic",
+                "dir": "rtl"
+              }
+            ]
+          }
+        ]
+      },
+      "ky": {
+        "name": "吉爾吉斯文",
+        "nativeName": "Кыргызча",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилл",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латын",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латын",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилл",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "mai": {
+        "name": "邁蒂利文",
+        "nativeName": "Maithili",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "Devanagari",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Latin",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Latin",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "Devanagari",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "mk": {
+        "name": "馬其頓文",
+        "nativeName": "Македонски",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилско писмо",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латинично писмо",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латинично писмо",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилско писмо",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ml": {
+        "name": "馬來亞拉姆文",
+        "nativeName": "മലയാളം",
+        "scripts": [
+          {
+            "code": "Mlym",
+            "name": "馬來亞拉姆文",
+            "nativeName": "മലയാളം",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ലാറ്റിൻ",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ലാറ്റിൻ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Mlym",
+                "name": "Malayalam",
+                "nativeName": "മലയാളം",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "mn-Cyrl": {
+        "name": "Mongolian (Cyrillic)",
+        "nativeName": "Mongolian (Cyrillic)",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилл",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латин",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латин",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилл",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "mni": {
+        "name": "Manipuri",
+        "nativeName": "ꯃꯩꯇꯩꯂꯣꯟ",
+        "scripts": [
+          {
+            "code": "Mtei",
+            "name": "Meetei Mayek",
+            "nativeName": "Meetei Mayek",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Latin",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Latin",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Mtei",
+                "name": "Meetei Mayek",
+                "nativeName": "Meetei Mayek",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "mr": {
+        "name": "馬拉地文",
+        "nativeName": "मराठी",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "देवनागरी",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "लॅटिन",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "लॅटिन",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "देवनागरी",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ne": {
+        "name": "尼泊爾文",
+        "nativeName": "नेपाली",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "देवानागरी",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ल्याटिन",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ल्याटिन",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "देवानागरी",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "or": {
+        "name": "歐迪亞文",
+        "nativeName": "ଓଡ଼ିଆ",
+        "scripts": [
+          {
+            "code": "Orya",
+            "name": "歐迪亞文",
+            "nativeName": "ଓଡ଼ିଆ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ଲାଟିନ୍",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ଲାଟିନ୍",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Orya",
+                "name": "Odia",
+                "nativeName": "ଓଡ଼ିଆ",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "pa": {
+        "name": "旁遮普文",
+        "nativeName": "ਪੰਜਾਬੀ",
+        "scripts": [
+          {
+            "code": "Guru",
+            "name": "古魯穆奇文",
+            "nativeName": "ਗੁਰਮੁਖੀ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ਲਾਤੀਨੀ",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ਲਾਤੀਨੀ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Guru",
+                "name": "Gurmukhi",
+                "nativeName": "ਗੁਰਮੁਖੀ",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ru": {
+        "name": "俄文",
+        "nativeName": "Русский",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кириллица",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латиница",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латиница",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кириллица",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "sa": {
+        "name": "Sanskrit",
+        "nativeName": "संस्कृत",
+        "scripts": [
+          {
+            "code": "Deva",
+            "name": "梵文字母",
+            "nativeName": "Devanagari",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Latin",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Latin",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Deva",
+                "name": "Devanagari",
+                "nativeName": "Devanagari",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "sd": {
+        "name": "信德文",
+        "nativeName": "سنڌي",
+        "scripts": [
+          {
+            "code": "Arab",
+            "name": "阿拉伯文",
+            "nativeName": "عربي",
+            "dir": "rtl",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "لاطيني",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "لاطيني",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Arab",
+                "name": "Arabic",
+                "nativeName": "عربي",
+                "dir": "rtl"
+              }
+            ]
+          }
+        ]
+      },
+      "si": {
+        "name": "僧伽羅文",
+        "nativeName": "සිංහල",
+        "scripts": [
+          {
+            "code": "Sinh",
+            "name": "錫蘭文",
+            "nativeName": "සිංහල",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ලතින්",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "ලතින්",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Sinh",
+                "name": "Sinhala",
+                "nativeName": "සිංහල",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "sr-Cyrl": {
+        "name": "塞爾維亞文 (斯拉夫文)",
+        "nativeName": "Српски (ћирилица)",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "ћирилица",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "latinica",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "sr-Latn": {
+        "name": "塞爾維亞文 (拉丁文)",
+        "nativeName": "Srpski (latinica)",
+        "scripts": [
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "latinica",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "ćirilica",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ta": {
+        "name": "坦米爾文",
+        "nativeName": "தமிழ்",
+        "scripts": [
+          {
+            "code": "Taml",
+            "name": "坦米爾文",
+            "nativeName": "தமிழ்",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "லத்தின்",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "லத்தின்",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Taml",
+                "name": "Tamil",
+                "nativeName": "தமிழ்",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "te": {
+        "name": "泰盧固文",
+        "nativeName": "తెలుగు",
+        "scripts": [
+          {
+            "code": "Telu",
+            "name": "泰盧固文",
+            "nativeName": "తెలుగు",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "లాటిన్",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "లాటిన్",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Telu",
+                "name": "Telugu",
+                "nativeName": "తెలుగు",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "tg": {
+        "name": "塔吉克文",
+        "nativeName": "Tajik (Cyrillic)",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "Кириллӣ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "Лотинӣ",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "Лотинӣ",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "Кириллӣ",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "th": {
+        "name": "泰文",
+        "nativeName": "ไทย",
+        "scripts": [
+          {
+            "code": "Thai",
+            "name": "泰文",
+            "nativeName": "ไทย",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "ละติน",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "tt": {
+        "name": "韃靼文",
+        "nativeName": "Татар",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилл",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латин",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латин",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилл",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "uk": {
+        "name": "烏克蘭文",
+        "nativeName": "Українська",
+        "scripts": [
+          {
+            "code": "Cyrl",
+            "name": "斯拉夫文",
+            "nativeName": "кирилиця",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "латиниця",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "латиниця",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Cyrl",
+                "name": "Cyrillic",
+                "nativeName": "кирилиця",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "ur": {
+        "name": "烏都文",
+        "nativeName": "اردو",
+        "scripts": [
+          {
+            "code": "Arab",
+            "name": "阿拉伯文",
+            "nativeName": "عربی",
+            "dir": "rtl",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "لاطینی",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "لاطینی",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Arab",
+                "name": "Arabic",
+                "nativeName": "عربی",
+                "dir": "rtl"
+              }
+            ]
+          }
+        ]
+      },
+      "zh-Hans": {
+        "name": "簡體中文 (簡體)",
+        "nativeName": "中文 (简体)",
+        "scripts": [
+          {
+            "code": "Hans",
+            "name": "簡化",
+            "nativeName": "简体汉语",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "拉丁语",
+                "dir": "ltr"
+              },
+              {
+                "code": "Hant",
+                "name": "Hat",
+                "nativeName": "传统",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "拉丁语",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Hans",
+                "name": "Han",
+                "nativeName": "简体汉语",
+                "dir": "ltr"
+              },
+              {
+                "code": "Hant",
+                "name": "Hat",
+                "nativeName": "传统",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      "zh-Hant": {
+        "name": "繁體中文 (繁體)",
+        "nativeName": "繁體中文 (繁體)",
+        "scripts": [
+          {
+            "code": "Hant",
+            "name": "傳統",
+            "nativeName": "傳統",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Latn",
+                "name": "Latin",
+                "nativeName": "拉丁语",
+                "dir": "ltr"
+              },
+              {
+                "code": "Hans",
+                "name": "Han",
+                "nativeName": "简体汉语",
+                "dir": "ltr"
+              }
+            ]
+          },
+          {
+            "code": "Latn",
+            "name": "拉丁文",
+            "nativeName": "拉丁文",
+            "dir": "ltr",
+            "toScripts": [
+              {
+                "code": "Hans",
+                "name": "Han",
+                "nativeName": "简体汉语",
+                "dir": "ltr"
+              },
+              {
+                "code": "Hant",
+                "name": "Hat",
+                "nativeName": "传统",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "dictionary": {
+      "af": {
+        "name": "南非荷蘭文",
+        "nativeName": "Afrikaans",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ar": {
+        "name": "阿拉伯文",
+        "nativeName": "العربية",
+        "dir": "rtl",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "bg": {
+        "name": "保加利亞文",
+        "nativeName": "Български",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "bn": {
+        "name": "孟加拉文",
+        "nativeName": "বাংলা",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "bs": {
+        "name": "Bosnian",
+        "nativeName": "Bosnian",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ca": {
+        "name": "加泰蘭文",
+        "nativeName": "Català",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "cs": {
+        "name": "捷克文",
+        "nativeName": "Čeština",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "cy": {
+        "name": "威爾斯文",
+        "nativeName": "Cymraeg",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "da": {
+        "name": "丹麥文",
+        "nativeName": "Dansk",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "de": {
+        "name": "德文",
+        "nativeName": "Deutsch",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "el": {
+        "name": "希臘文",
+        "nativeName": "Ελληνικά",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "en": {
+        "name": "英文",
+        "nativeName": "English",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "南非荷蘭文",
+            "nativeName": "Afrikaans",
+            "dir": "ltr",
+            "code": "af"
+          },
+          {
+            "name": "阿拉伯文",
+            "nativeName": "العربية",
+            "dir": "rtl",
+            "code": "ar"
+          },
+          {
+            "name": "保加利亞文",
+            "nativeName": "Български",
+            "dir": "ltr",
+            "code": "bg"
+          },
+          {
+            "name": "孟加拉文",
+            "nativeName": "বাংলা",
+            "dir": "ltr",
+            "code": "bn"
+          },
+          {
+            "name": "Bosnian",
+            "nativeName": "Bosnian",
+            "dir": "ltr",
+            "code": "bs"
+          },
+          {
+            "name": "加泰蘭文",
+            "nativeName": "Català",
+            "dir": "ltr",
+            "code": "ca"
+          },
+          {
+            "name": "簡體中文 (簡體)",
+            "nativeName": "中文 (简体)",
+            "dir": "ltr",
+            "code": "zh-Hans"
+          },
+          {
+            "name": "捷克文",
+            "nativeName": "Čeština",
+            "dir": "ltr",
+            "code": "cs"
+          },
+          {
+            "name": "威爾斯文",
+            "nativeName": "Cymraeg",
+            "dir": "ltr",
+            "code": "cy"
+          },
+          {
+            "name": "丹麥文",
+            "nativeName": "Dansk",
+            "dir": "ltr",
+            "code": "da"
+          },
+          {
+            "name": "德文",
+            "nativeName": "Deutsch",
+            "dir": "ltr",
+            "code": "de"
+          },
+          {
+            "name": "希臘文",
+            "nativeName": "Ελληνικά",
+            "dir": "ltr",
+            "code": "el"
+          },
+          {
+            "name": "西班牙文",
+            "nativeName": "Español",
+            "dir": "ltr",
+            "code": "es"
+          },
+          {
+            "name": "愛沙尼亞文",
+            "nativeName": "Eesti",
+            "dir": "ltr",
+            "code": "et"
+          },
+          {
+            "name": "波斯文",
+            "nativeName": "فارسی",
+            "dir": "rtl",
+            "code": "fa"
+          },
+          {
+            "name": "芬蘭文",
+            "nativeName": "Suomi",
+            "dir": "ltr",
+            "code": "fi"
+          },
+          {
+            "name": "法文",
+            "nativeName": "Français",
+            "dir": "ltr",
+            "code": "fr"
+          },
+          {
+            "name": "希伯來文",
+            "nativeName": "עברית",
+            "dir": "rtl",
+            "code": "he"
+          },
+          {
+            "name": "印地文",
+            "nativeName": "हिन्दी",
+            "dir": "ltr",
+            "code": "hi"
+          },
+          {
+            "name": "克羅埃西亞文",
+            "nativeName": "Hrvatski",
+            "dir": "ltr",
+            "code": "hr"
+          },
+          {
+            "name": "匈牙利文",
+            "nativeName": "Magyar",
+            "dir": "ltr",
+            "code": "hu"
+          },
+          {
+            "name": "印尼文",
+            "nativeName": "Indonesia",
+            "dir": "ltr",
+            "code": "id"
+          },
+          {
+            "name": "冰島文",
+            "nativeName": "Íslenska",
+            "dir": "ltr",
+            "code": "is"
+          },
+          {
+            "name": "義大利文",
+            "nativeName": "Italiano",
+            "dir": "ltr",
+            "code": "it"
+          },
+          {
+            "name": "日文",
+            "nativeName": "日本語",
+            "dir": "ltr",
+            "code": "ja"
+          },
+          {
+            "name": "韓文",
+            "nativeName": "한국어",
+            "dir": "ltr",
+            "code": "ko"
+          },
+          {
+            "name": "立陶宛文",
+            "nativeName": "Lietuvių",
+            "dir": "ltr",
+            "code": "lt"
+          },
+          {
+            "name": "拉脫維亞文",
+            "nativeName": "Latviešu",
+            "dir": "ltr",
+            "code": "lv"
+          },
+          {
+            "name": "馬爾他文",
+            "nativeName": "Malti",
+            "dir": "ltr",
+            "code": "mt"
+          },
+          {
+            "name": "馬來文",
+            "nativeName": "Melayu",
+            "dir": "ltr",
+            "code": "ms"
+          },
+          {
+            "name": "孟文",
+            "nativeName": "Hmong Daw",
+            "dir": "ltr",
+            "code": "mww"
+          },
+          {
+            "name": "荷蘭文",
+            "nativeName": "Nederlands",
+            "dir": "ltr",
+            "code": "nl"
+          },
+          {
+            "name": "巴克摩挪威文",
+            "nativeName": "Norsk Bokmål",
+            "dir": "ltr",
+            "code": "nb"
+          },
+          {
+            "name": "波蘭文",
+            "nativeName": "Polski",
+            "dir": "ltr",
+            "code": "pl"
+          },
+          {
+            "name": "葡萄牙文 (巴西)",
+            "nativeName": "Português (Brasil)",
+            "dir": "ltr",
+            "code": "pt"
+          },
+          {
+            "name": "羅馬尼亞文",
+            "nativeName": "Română",
+            "dir": "ltr",
+            "code": "ro"
+          },
+          {
+            "name": "俄文",
+            "nativeName": "Русский",
+            "dir": "ltr",
+            "code": "ru"
+          },
+          {
+            "name": "斯洛伐克文",
+            "nativeName": "Slovenčina",
+            "dir": "ltr",
+            "code": "sk"
+          },
+          {
+            "name": "斯洛維尼亞文",
+            "nativeName": "Slovenščina",
+            "dir": "ltr",
+            "code": "sl"
+          },
+          {
+            "name": "塞爾維亞文 (拉丁文)",
+            "nativeName": "Srpski (latinica)",
+            "dir": "ltr",
+            "code": "sr-Latn"
+          },
+          {
+            "name": "瑞典文",
+            "nativeName": "Svenska",
+            "dir": "ltr",
+            "code": "sv"
+          },
+          {
+            "name": "史瓦希里文",
+            "nativeName": "Kiswahili",
+            "dir": "ltr",
+            "code": "sw"
+          },
+          {
+            "name": "坦米爾文",
+            "nativeName": "தமிழ்",
+            "dir": "ltr",
+            "code": "ta"
+          },
+          {
+            "name": "泰文",
+            "nativeName": "ไทย",
+            "dir": "ltr",
+            "code": "th"
+          },
+          {
+            "name": "克林貢文 (拉丁文)",
+            "nativeName": "Klingon (Latin)",
+            "dir": "ltr",
+            "code": "tlh-Latn"
+          },
+          {
+            "name": "土耳其文",
+            "nativeName": "Türkçe",
+            "dir": "ltr",
+            "code": "tr"
+          },
+          {
+            "name": "烏克蘭文",
+            "nativeName": "Українська",
+            "dir": "ltr",
+            "code": "uk"
+          },
+          {
+            "name": "烏都文",
+            "nativeName": "اردو",
+            "dir": "rtl",
+            "code": "ur"
+          },
+          {
+            "name": "越南文",
+            "nativeName": "Tiếng Việt",
+            "dir": "ltr",
+            "code": "vi"
+          }
+        ]
+      },
+      "es": {
+        "name": "西班牙文",
+        "nativeName": "Español",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "et": {
+        "name": "愛沙尼亞文",
+        "nativeName": "Eesti",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "fa": {
+        "name": "波斯文",
+        "nativeName": "فارسی",
+        "dir": "rtl",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "fi": {
+        "name": "芬蘭文",
+        "nativeName": "Suomi",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "fr": {
+        "name": "法文",
+        "nativeName": "Français",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "he": {
+        "name": "希伯來文",
+        "nativeName": "עברית",
+        "dir": "rtl",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "hi": {
+        "name": "印地文",
+        "nativeName": "हिन्दी",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "hr": {
+        "name": "克羅埃西亞文",
+        "nativeName": "Hrvatski",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "hu": {
+        "name": "匈牙利文",
+        "nativeName": "Magyar",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "id": {
+        "name": "印尼文",
+        "nativeName": "Indonesia",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "is": {
+        "name": "冰島文",
+        "nativeName": "Íslenska",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "it": {
+        "name": "義大利文",
+        "nativeName": "Italiano",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ja": {
+        "name": "日文",
+        "nativeName": "日本語",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ko": {
+        "name": "韓文",
+        "nativeName": "한국어",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "lt": {
+        "name": "立陶宛文",
+        "nativeName": "Lietuvių",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "lv": {
+        "name": "拉脫維亞文",
+        "nativeName": "Latviešu",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ms": {
+        "name": "馬來文",
+        "nativeName": "Melayu",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "mt": {
+        "name": "馬爾他文",
+        "nativeName": "Malti",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "mww": {
+        "name": "孟文",
+        "nativeName": "Hmong Daw",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "nb": {
+        "name": "巴克摩挪威文",
+        "nativeName": "Norsk Bokmål",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "nl": {
+        "name": "荷蘭文",
+        "nativeName": "Nederlands",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "pl": {
+        "name": "波蘭文",
+        "nativeName": "Polski",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "pt": {
+        "name": "葡萄牙文 (巴西)",
+        "nativeName": "Português (Brasil)",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ro": {
+        "name": "羅馬尼亞文",
+        "nativeName": "Română",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ru": {
+        "name": "俄文",
+        "nativeName": "Русский",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "sk": {
+        "name": "斯洛伐克文",
+        "nativeName": "Slovenčina",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "sl": {
+        "name": "斯洛維尼亞文",
+        "nativeName": "Slovenščina",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "sr-Latn": {
+        "name": "塞爾維亞文 (拉丁文)",
+        "nativeName": "Srpski (latinica)",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "sv": {
+        "name": "瑞典文",
+        "nativeName": "Svenska",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "sw": {
+        "name": "史瓦希里文",
+        "nativeName": "Kiswahili",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ta": {
+        "name": "坦米爾文",
+        "nativeName": "தமிழ்",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "th": {
+        "name": "泰文",
+        "nativeName": "ไทย",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "tlh-Latn": {
+        "name": "克林貢文 (拉丁文)",
+        "nativeName": "Klingon (Latin)",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "tr": {
+        "name": "土耳其文",
+        "nativeName": "Türkçe",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "uk": {
+        "name": "烏克蘭文",
+        "nativeName": "Українська",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "ur": {
+        "name": "烏都文",
+        "nativeName": "اردو",
+        "dir": "rtl",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "vi": {
+        "name": "越南文",
+        "nativeName": "Tiếng Việt",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      },
+      "zh-Hans": {
+        "name": "簡體中文 (簡體)",
+        "nativeName": "中文 (简体)",
+        "dir": "ltr",
+        "translations": [
+          {
+            "name": "英文",
+            "nativeName": "English",
+            "dir": "ltr",
+            "code": "en"
+          }
+        ]
+      }
+    }
+  }

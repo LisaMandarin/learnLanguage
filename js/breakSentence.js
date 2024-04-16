@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
     buttonElem.addEventListener('click', function(event) {
         event.preventDefault(); // stop the button from submitting
         
-        const text = textElem.value;
+        const text = textElem.textContent;
         const regex = /[^.!?]+[.!?]+/g;  //not start with .!? but end with .!?
         const sentences = text.match(regex) || [];
 
         const trimmedsentences = sentences.map((sentence) => sentence.trim());
-        outputArea.value = trimmedsentences.join('\n');
-    })
+        outputArea.innerHTML = trimmedsentences.map(sentence => "➢" + sentence).join('<br>');
+    });
     
 })

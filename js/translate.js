@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   buttonElem.addEventListener('click', async function(event) {
     event.preventDefault();  // stop the button from submitting
 
-    const text = textElem.value;
+    const text = textElem.textContent;
     const regex = /[^.!?]+[.!?]+/g;  //not start with .!? but end with .!?
     const sentences = text.match(regex) || [];
 
@@ -41,7 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const response = await fetch(url, options);
       const result = await response.json();
       
-      outputArea.innerHTML += sentence + "<br>" + result[0].translations[0].text + "<br>";
+      outputArea.innerHTML += `<span class="original-text">${sentence}</span><br>` + `<span class="translated-text">${result[0].translations[0].text}</span><hr>`;
+
+      // outputArea.innerHTML += sentence + "<br>" + result[0].translations[0].text + "<hr>";
       
     } catch (error) {
       console.error(error);
