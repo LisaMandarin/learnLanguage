@@ -57,10 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 pElem.innerHTML = meanings.join('<br>');
                 outputArea.appendChild(pElem);
-                outputArea.appendChild(document.createElement('hr'));
                 
             } else {
-                alert('Please select the entire word')
+                alert('Please select a entire word')
             }
         } catch (error) {
             console.error('Error: ', error.message);

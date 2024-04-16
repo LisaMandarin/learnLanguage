@@ -35,3 +35,15 @@ h1 {
 .translate-error {
   color: red;
 }
+
+#notesArea {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-gap: 10px;
+  justify-content: start;
+}
+
+.note {
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
