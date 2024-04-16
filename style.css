@@ -19,15 +19,19 @@ h1 {
 }
 
 .area {
-  border: 1px solid black;
+  border: 1px solid #ccc;
   width: 80vw;
   padding: 15px;
 }
 
 .original-text {
-  color: red;
+  color: black;
 }
 
 .translated-text {
   color: blue;
+}
+
+.translate-error {
+  color: red;
 }

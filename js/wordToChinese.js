@@ -1,9 +1,11 @@
 import { qs } from "./util";
 
 const lookUpBtn = qs('#lookUpBtn');
+const notesArea = qs('#notesArea');
 lookUpBtn.addEventListener('click', () => {
     var selection = document.getSelection();
-    console.log('selected text: ', selection.toString());
+    notesArea.innerHTML = selection.toString();
+    // console.log('selected text: ', selection.toString());
 })
 
 
