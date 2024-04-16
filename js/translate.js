@@ -20,10 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     outputArea.innerHTML = ""; // clear output area before retrieving new data
+    let resultHtml = '';
 
     for (let sentence of sentences) {
-      await translate(sentence);
+      resultHtml += await translate(sentence);
     }
+    outputArea.innerHTML = resultHtml;
   });
   
   async function translate(sentence) {
@@ -45,16 +47,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // ----- end of api information -----
 
     try {
-    const response = await fetch(url, options);
-    const result = await response.json();
+      const response = await fetch(url, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error!  Status: ${response.status}`);
+      }
+      const result = await response.json();
     
-    outputArea.innerHTML += `<span class="original-text">${sentence}</span><br>` + `<span class="translated-text">${result[0].translations[0].text}</span><hr>`;
-
-    // outputArea.innerHTML += sentence + "<br>" + result[0].translations[0].text + "<hr>";
+      return `<span class="original-text">${sentence}</span><br>` + 
+             `<span class="translated-text">${result[0].translations[0].text}</span><hr>`;
     
     } catch (error) {
       console.error("Translation error: ", error);
-      outputArea.innerHTML += `<span class="translate-error">Error translating sentence: ${sentence}</span>`;
+      return `<span class="translate-error">Error translating sentence: ${sentence}</span><br><hr>`;
     }
   }
 });
