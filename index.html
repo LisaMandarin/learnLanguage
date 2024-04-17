@@ -3,58 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage</title>
+  <title>句句通</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header>
-    Learn a language through articles.  Paste a part of an article and then follow the steps to learn the language.
+    把英文文章分句翻譯，也可以查詢單詞意思，最後把翻譯和查詢的資料編輯後變成pdf檔儲存。<br>
+    請按照以下的步驟1→2→3→4完成你的筆記。
   </header>
   <section class="card">
-    <h1>1. Enter the text 
+    <h1>1. 輸入文字 
       <svg id="originalQ" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
         <path fill="currentColor" d="M140 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12M128 72c-22.06 0-40 16.15-40 36v4a8 8 0 0 0 16 0v-4c0-11 10.77-20 24-20s24 9 24 20s-10.77 20-24 20a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-.72c18.24-3.35 32-17.9 32-35.28c0-19.85-17.94-36-40-36m104 56A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88" />
       </svg>
     </h1>
-    <div id="originalHint">
-      Paste the text in the box.  Don't forget to clear the text before pasting anything.  Use "break sentence" button to break the sentences line by line.
+    <div id="originalHint" class="hintBox">
+      <ul>
+        <li>原文限英文。</li>
+        <li>單句長度不可超過10,000字母（含空格）</li>
+        <li>總長度不可超過100句，也不可超過50,000字母（含空格）</li>
+      </ul>
     </div>
-    <div contenteditable="true" class="area" id="textOriginalArea">Enter the text</div>
+    <div contenteditable="true" class="area" id="textOriginalArea">請輸入英文原文</div>
     <div>
-      <button type="button" id="clearOriginalBtn">clear</button>
-      <button type="button" id="breakBtn">break sentence</button>
+      <button type="button" id="clearOriginalBtn">清除原文</button>
+      <button type="button" id="breakBtn">陳列句子</button>
     </div>
   </section>
 
   <section class="card">
-    <h1>2. Sentence List 
+    <h1>2. 陳列句子 
       <svg id="listQ" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
         <path fill="currentColor" d="M140 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12M128 72c-22.06 0-40 16.15-40 36v4a8 8 0 0 0 16 0v-4c0-11 10.77-20 24-20s24 9 24 20s-10.77 20-24 20a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-.72c18.24-3.35 32-17.9 32-35.28c0-19.85-17.94-36-40-36m104 56A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88" />
       </svg>
     </h1>
-    <div id="listHint">
-
+    <div id="listHint" class="hintBox">
+      <ul>
+        <li>一次最多翻譯25句，請把不需要翻譯的句子刪除。</li>
+        <li>總長度不可超過5,000字母（含空格）。</li>
+      </ul>
     </div>
-    <div contenteditable="true" class="area" id="sentenceListArea"></div>
+    <div contenteditable="true" class="area" id="sentenceListArea">
+      ➢範例句。<br>
+      ➢範例句。<br>
+      ➢範例句。<br>
+    </div>
     <div>
-      <button type="button" id="clearListBtn">clear</button>
-      <button type="button" id="translateBtn">translate</button>
+      <button type="button" id="clearListBtn">清除全部句子</button>
+      <button type="button" id="translateBtn">翻譯</button>
     </div>
   </section>
 
   <section class="card">
-    <h1>3. Translation 
+    <h1>3. 翻譯 
       <svg id="translationQ" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
         <path fill="currentColor" d="M140 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12M128 72c-22.06 0-40 16.15-40 36v4a8 8 0 0 0 16 0v-4c0-11 10.77-20 24-20s24 9 24 20s-10.77 20-24 20a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-.72c18.24-3.35 32-17.9 32-35.28c0-19.85-17.94-36-40-36m104 56A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88" />
       </svg>
     </h1>
-    <div id="translationHint">
-
+    <div id="translationHint" class="hintBox">
+      <ul>
+        <li>選取要查詢的單字或片語，按「查單詞」。</li>
+        <li>查詢的相關資料會出現在下方筆記欄。</li>
+      </ul>
     </div>
     <div contenteditable="true" class="area" id="translationArea"></div>
     <div>
-      <button type="button" id="clearTranslationBtn">clear</button>
-      <button type="button" id="lookUpBtn">look up</button>
+      <button type="button" id="clearTranslationBtn">清除</button>
+      <button type="button" id="lookUpBtn">查單詞</button>
     </div>
   </section>
 
@@ -64,8 +79,13 @@
         <path fill="currentColor" d="M140 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12M128 72c-22.06 0-40 16.15-40 36v4a8 8 0 0 0 16 0v-4c0-11 10.77-20 24-20s24 9 24 20s-10.77 20-24 20a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-.72c18.24-3.35 32-17.9 32-35.28c0-19.85-17.94-36-40-36m104 56A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88" />
       </svg>
     </h1>
-    <div id="notesHint">
-
+    <div id="notesHint" class="hintBox">
+      <ul>
+        <li>可手動增減筆記內容</li>
+        <li>shift + Enter：在單格筆記欄增加一行。</li>
+        <li>文末Enter：新增一格筆記欄</li>
+        <li>del鍵：刪除文字或筆記欄</li>
+      </ul>
     </div>
     <div contenteditable="true" class="area" id="notesArea">
       <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
@@ -78,7 +98,7 @@
     </div>
     <div>
       <button type="button" id="clearNotesBtn">clear</button>
-      <button type="button" id="copyBtn">copy</button>
+      <button type="button" id="saveBtn">save as PDF</button>
     </div>
   </section>
   
@@ -86,5 +106,8 @@
   <script src="/js/translate.js" type="module"></script>
   <script src="/js/breakSentence.js" type="module"></script>
   <script src="/js/wordToChinese.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="/js/savePdf.js" type="module"></script>
+
 </body>
 </html>

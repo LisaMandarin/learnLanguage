@@ -1,0 +1,40 @@
+{
+    "parts_of_speech": [
+        {
+            "name": "Noun",
+            "abbreviation": "N."
+        },
+        {
+            "name": "Verb",
+            "abbreviation": "V."
+        },
+        {
+            "name": "Adjective",
+            "abbreviation": "Adj."
+        },
+        {
+            "name": "Adverb",
+            "abbreviation": "Adv."
+        },
+        {
+            "name": "Pronoun",
+            "abbreviation": "Pron."
+        },
+        {
+            "name": "Preposition",
+            "abbreviation": "Prep."
+        },
+        {
+            "name": "Conjunction",
+            "abbreviation": "Conj."
+        },
+        {
+            "name": "Interjection",
+            "abbreviation": "Interj."
+        },
+        {
+            "name": "Article",
+            "abbreviation": "Art."
+        }
+    ]
+}
