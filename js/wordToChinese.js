@@ -43,20 +43,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 const word = result[0].displaySource;
                 let translations = result[0].translations;
                 
-                const pElem = document.createElement('p');
-                pElem.classList.add('note');
-                pElem.setAttribute('contenteditable', 'true');
+                const divElem = document.createElement('div');
+                divElem.classList.add('note');
+                divElem.setAttribute('contenteditable', 'true');
 
-                let meanings = [word];
+                let meanings = translations.map(translation => translation.displayTarget);
 
-                translations.forEach(translation => {
-                    const meaning = translation.displayTarget;
-                    const partOfSpeech = translation.posTag;
-                    meanings.push(`${meaning} (${partOfSpeech})`);
-                });
+                // translations.forEach(translation => {
+                //     const meaning = translation.displayTarget;
+                //     meanings.push(meaning);
+                // });
 
-                pElem.innerHTML = meanings.join('<br>');
-                outputArea.appendChild(pElem);
+                // pElem.innerHTML = meanings.join(',');
+
+                divElem.innerHTML = `
+                    <strong>${word}</strong><br>
+                    ${meanings.join(', ')}
+                `
+                outputArea.appendChild(divElem);
                 
             } else {
                 alert('Please select a entire word')

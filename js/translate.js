@@ -20,8 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     outputArea.innerHTML = ""; // clear output area before retrieving new data
-    let resultHtml = '';
+    loading();
 
+    let resultHtml = '';
+    
     for (let sentence of sentences) {
       resultHtml += await translate(sentence);
     }
@@ -60,6 +62,11 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error("Translation error: ", error);
       return `<span class="translate-error">Error translating sentence: ${sentence}</span><br><hr>`;
     }
+  }
+
+  function loading() {
+    outputArea.textContent = `Generating translation.  Please wait.`;
+    return outputArea;
   }
 });
 
