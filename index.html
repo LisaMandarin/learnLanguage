@@ -66,10 +66,20 @@
         <li>查詢的相關資料會出現在下方筆記欄。</li>
       </ul>
     </div>
-    <div contenteditable="true" class="area" id="translationArea"></div>
+    <div contenteditable="true" class="area" id="translationArea">
+      <span class="original-text">➢原句。</span><br>
+      <span class="translated-text">➢翻譯。<br></span>
+      <span class="original-text">➢原句。</span><br>
+      <span class="translated-text">➢翻譯。<br></span>
+
+    </div>
     <div>
       <button type="button" id="clearTranslationBtn">清除</button>
       <button type="button" id="lookUpBtn">查單詞</button>
+      <input type="checkbox" id="chinese-meaning"><label for="chinese-meaning" class="lookup-checkbox" >中文</label>
+      <input type="checkbox" id="english-meaning"><label for="english-meaning" class="lookup-checkbox" >English</label>
+      <input type="checkbox" id="example-sentence"><label for="example-sentence" class="lookup-checkbox" >例句</label>
+      
     </div>
   </section>
 
@@ -82,19 +92,16 @@
     <div id="notesHint" class="hintBox">
       <ul>
         <li>可手動增減筆記內容</li>
-        <li>shift + Enter：在單格筆記欄增加一行。</li>
+        <li>句末shift + Enter：在單格筆記欄增加一行。</li>
         <li>文末Enter：新增一格筆記欄</li>
         <li>del鍵：刪除文字或筆記欄</li>
       </ul>
     </div>
     <div contenteditable="true" class="area" id="notesArea">
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
-      <p class="note" contenteditable="true">January<br>一月 (NOUN)<br>一月份 (NOUN)<br>1月份 (NOUN)<br>今年1月 (NOUN)</p>
+      <p class="note" contenteditable="true">word1<br>中文意思<br>(n.)English definition<br>(v.) English definition<br>Example sentence</p>
+      <p class="note" contenteditable="true">word2<br>中文意思<br>(n.)English definition<br>(v.) English definition<br>Example sentence</p>
+      <p class="note" contenteditable="true">word3<br>中文意思<br>(n.)English definition<br>(v.) English definition<br>Example sentence</p>
+      <p class="note" contenteditable="true">word4<br>中文意思<br>(n.)English definition<br>(v.) English definition<br>Example sentence</p>
     </div>
     <div>
       <button type="button" id="clearNotesBtn">clear</button>
@@ -106,7 +113,7 @@
   <script src="/js/translate.js" type="module"></script>
   <script src="/js/breakSentence.js" type="module"></script>
   <script src="/js/wordToChinese.js" type="module"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="/js/NotoSansTC-VariableFont_wght-normal.js" type="module"></script>
   <script src="/js/savePdf.js" type="module"></script>
 
 </body>

@@ -85,7 +85,7 @@ h1 {
 
 #notesArea {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 150px);
+  grid-template-columns: repeat(auto-fill, 250px);
   grid-gap: var(--space-big);
   justify-content: start;
 }
@@ -102,5 +102,9 @@ h1 {
   display: none;
   width: 80vw;
   background-color: var(--milky);
+  font-size: 14px;
+}
+
+.lookup-checkbox {
   font-size: 14px;
 }

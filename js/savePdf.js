@@ -1,26 +1,41 @@
 import { qs } from "./util";
+import { jsPDF } from "jspdf";
 
-const { jsPDF } = window.jspdf;
 const saveBtnElem = qs('#saveBtn');
 
 function saveAsPDF() {
-    const pdf = new jsPDF();
     
-    // get translation area
+    const pdf = new jsPDF({
+        lineHeight: 1.5 
+    });
+
+    pdf.setFont('NotoSansTC-VariableFont_wght');  // set Chinese font
+
+    // Set maximum width for text
+    const pageWidth = pdf.internal.pageSize.width;
+    const margins = {left: 10, right: 10};
+    const maxWidth = pageWidth - (margins.left + margins.right);
+
     const translationContent = qs('#translationArea').innerText;
-    pdf.text('Translations:', 10, 10);
-    pdf.text(translationContent, 10, 20);
+    const splitTranslation = pdf.splitTextToSize(translationContent, maxWidth);
+
+    pdf.text('Translations:', margins.left, 10);
+    pdf.text(splitTranslation, margins.left, 20);
 
     // calculate translation length and notes starting point
-    const translationlines = translationContent.split('\n').length;
-    const noteStatePosition = 20 + (translationlines * 20); // 20px padding + 20px per line of translation
+    const translationLines = translationContent.split('\n').length;
+    const noteStateY = 5 + (translationLines * 20); // 5mm padding + 20mm per line of translation
 
     // get notes area
     const notesContent = qs('#notesArea').innerText;
-    pdf.text('Notes:', 10, noteStatePosition);
-    pdf.text(notesContent, 10, (noteStatePosition+10));
+    const splitNotes = pdf.splitTextToSize(notesContent, maxWidth);
+    pdf.text('Notes:', margins.left, noteStateY);
+    pdf.text(splitNotes, margins.left, (noteStateY+10));
 
     pdf.save('句句通.pdf');
+    
 }
+
+
 
 saveBtnElem.addEventListener('click', saveAsPDF)
