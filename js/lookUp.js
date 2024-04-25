@@ -20,23 +20,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (!checkboxChinese.checked && !checkboxEnglish.checked && !checkboxExample.checked) {
-            // await lookUp(selection);
             alert('勾選「中文」、「English」、「例句」');
             return;
         }
 
-        let divElem = null; // note section
+        let divElem = document.createElement('div'); // note section
+        divElem.classList.add('note');
+        divElem.setAttribute('contenteditable', 'true');
+
+        divElem.innerHTML = `<strong>${selection}</strong><br>`;
+
         if (checkboxChinese.checked) {
-            divElem = await chineseMeaning(selection);
+            divElem = await chineseMeaning(selection, divElem);
         };
 
-        if (checkboxEnglish.checked && divElem) {
-            await englishMeaning(selection, divElem);
-        }
+        if (checkboxEnglish.checked) {
+            divElem = await englishMeaning(selection, divElem);
+        };
+
+        outputArea.appendChild(divElem);
 
     });
     
-    async function chineseMeaning(word) {
+    async function chineseMeaning(word, divElem) {
         const url = 'https://microsoft-translator-text.p.rapidapi.com/Dictionary/Lookup?to=zh-Hans&api-version=3.0&from=en';
         const options = {
             method: 'POST',
@@ -56,19 +62,16 @@ document.addEventListener('DOMContentLoaded', function() {
             const result = await response.json();
 
             if (result[0].displaySource && result[0].translations.length > 0) {
-                const divElem = document.createElement('div');
-                divElem.classList.add('note');
-                divElem.setAttribute('contenteditable', 'true');
-
-                const selectedWord = result[0].displaySource;
+        
+                // const selectedWord = result[0].displaySource;
                 let translations = result[0].translations;
                 let meanings = translations.map(translation => translation.displayTarget);
 
-                divElem.innerHTML = `
-                    <strong>${selectedWord}</strong><br>
+                divElem.innerHTML += `
                     ${meanings.join(', ')}
+                    <br>
                 `;
-                outputArea.appendChild(divElem);
+                
                 return divElem;
                 
             } else {
@@ -95,19 +98,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 throw new Error(`HTTP error!  Status: ${response.status}`);
             }
             const result = await response.json();
-            const meanings = result.meaning || {};
+            const meanings = result.meaning || {};  // meanings is a key-value object
             console.log("result: ", result);
             console.log("result-meaning: ", result.meaning);
-            const englishMeanings = Object.entries(meanings)
-                .map(([key, value]) => `${key}: ${value}`)
-                .join(', ');
+            let formattedMeanings = Object.entries(meanings)
+                .filter(([key, value]) => value)  // filter out empty meanings
+                .map(([key, value]) => {
+                    value = value.replace(/\n/g, '<br>');  // replace \n with <br>
+                    return value;
+                })
+                .join('<br>');
+            
             divElem.innerHTML += `
-                <br>${englishMeanings}
+                ${formattedMeanings}
             `;
-
+            return divElem;
+            
         } catch (error) {
             console.error(error);
         }
     }
 });
-
