@@ -1,5 +1,5 @@
-import { qs } from "./util";
-import { jsPDF } from "jspdf";
+import { qs } from "./util.js";
+import jsPDF from "jspdf";
 
 const saveBtnElem = qs('#saveBtn');
 

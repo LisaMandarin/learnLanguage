@@ -1,4 +1,4 @@
-import { qs } from "./util";
+import { qs } from "./util.js";
 
 const url = 'https://twinword-word-graph-dictionary.p.rapidapi.com/definition/?entry=mask';
 const options = {

@@ -1,4 +1,4 @@
-import { qs } from "./util";
+import { qs } from "./util.js";
 
 document.addEventListener('DOMContentLoaded', function() {
     const buttonElem = qs('#lookUpBtn');

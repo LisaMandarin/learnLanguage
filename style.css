@@ -53,6 +53,10 @@ header {
   padding: var(--space-big)
 }
 
+header h1 {
+  text-align: center;
+}
+
 .card {
   width: 100vw;
   display: flex;
